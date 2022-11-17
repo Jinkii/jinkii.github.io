@@ -20,7 +20,7 @@ body {
 
 header{
     color: #EDEBEA;
-    background-image: url(/preparazione-verifica/img/bg1.png);
+    background-image: url(/img/bg1.png);
     background-repeat: repeat;
     height: 95px;
     padding: 10px 20px 10px 20px;
@@ -46,7 +46,7 @@ header{
 }
 
 nav{
-    background-image: url(/preparazione-verifica/img/bg2.png);
+    background-image: url(/img/bg2.png);
     background-repeat: repeat;
     font-size: 11pt;
     padding: 10px;
@@ -81,10 +81,6 @@ main{
 #main>h3{
     font-size: 11pt;
     color: gray;
-}
-
-#main>h4{
-    text-align: center;
 }
 
 #main>h4{
