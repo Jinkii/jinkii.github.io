@@ -1,0 +1,123 @@
+body {
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-size: 10pt;
+    background-color: #5D5D5D;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+    width: 75%;
+    min-width: 700px;
+    min-height: 1100px;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    color: #EDEBEA;
+    background-image: url(/preparazione-verifica/img/bg1.png);
+    background-repeat: repeat;
+    height: 95px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 0;
+    flex: 0 0;
+}
+
+#logo {
+    float: right;
+    height: 88px;
+    padding: 0;
+    margin: 0 15px 0 15px;
+}
+
+#container {
+    background-color: #E5E8CA;
+    padding: 0;
+    margin: 0;
+    flex: 1 1;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+nav{
+    background-image: url(/preparazione-verifica/img/bg2.png);
+    background-repeat: repeat;
+    font-size: 11pt;
+    padding: 10px;
+    margin: 0;
+    flex: 1 1;
+}
+
+nav>ul>li{
+    margin-bottom: 1.4em;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: #5A5A5A;
+}
+
+main{
+    background-color: white;
+    font-size: 10pt;
+    padding: 15px 25px 15px 25px;
+    flex: 5 5;
+}
+
+.main>h1{
+    font-size: 20pt;
+}
+
+.main>h2{
+    font-size: 14pt;
+}
+
+.main>h3{
+    font-size: 11pt;
+    color: gray;
+}
+
+.main>h4{
+    text-align: center;
+}
+
+figure{
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 0 20px 20px;
+    clear: right;
+}
+
+figcaption{
+    font-size: smaller;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+footer{
+    color: #565656;
+    background-color: #B1BDB6;
+    text-align: center;
+    font-size: 9pt;
+    margin: 0 0 10px 0;
+    padding: 10px 0 10px 0;
+    flex: 0 0;
+}
+
+p.footer{
+    margin: 5px 0 5px 0;
+}
