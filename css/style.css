@@ -93,18 +93,9 @@ figure{
     clear: right;
 }
 
-#main>figure>.figure{
-    background-image: url(/img/castello1.png);
-    height: 16em;
-    width: 19em;
-    background-repeat: no-repeat;
-}
-
-#main>figure>.figure:hover{
-    background-image: url(/img/b.png);
-    background-size: cover;
-    transition: .3s;
-    transform: scale(1);
+figure:hover{
+    transition: 0.2;
+    transform: scale(1.1);
 }
 
 figcaption{
