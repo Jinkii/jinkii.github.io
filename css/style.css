@@ -24,7 +24,7 @@ header{
     background-repeat: repeat;
     height: 95px;
     padding: 10px 20px 10px 20px;
-    margin: 10px 0;
+    margin: 10px 0 0 0;
     flex: 0 0;
 }
 
@@ -81,10 +81,6 @@ main{
 #main>h3{
     font-size: 11pt;
     color: gray;
-}
-
-#main>h4{
-    text-align: center;
 }
 
 figure{
