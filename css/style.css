@@ -70,20 +70,24 @@ main{
     flex: 5 5;
 }
 
-.main>h1{
+#main>h1{
     font-size: 20pt;
 }
 
-.main>h2{
+#main>h2{
     font-size: 14pt;
 }
 
-.main>h3{
+#main>h3{
     font-size: 11pt;
     color: gray;
 }
 
-.main>h4{
+#main>h4{
+    text-align: center;
+}
+
+#main>h4{
     text-align: center;
 }
 
